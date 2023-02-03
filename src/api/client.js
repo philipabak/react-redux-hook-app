@@ -14,6 +14,7 @@ export async function client(endpoint, { body, ...customConfig } = {}) {
   }
 
   if (body) {
+    
     config.body = JSON.stringify(body)
   }
 
